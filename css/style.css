@@ -9,6 +9,22 @@ h1
     margin-bottom:0px;
 }
 
+figcaption
+{
+    font-size:14px;
+}
+
+p
+{
+    font-size:20px;
+}
+
+ul
+{
+    font-size:18px;
+    padding-left:20px;
+}
+
 /* UTILS */
 
 .container
