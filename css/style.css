@@ -32,6 +32,14 @@ table
     font-size:18px;
 }
 
+thead
+{
+    text-align:left;
+    font-size:20px;
+    color:white;
+    background-color:#20a9e5;
+}
+
 th,td
 {
     width:25%;
@@ -42,12 +50,9 @@ td
     height:fit-content;
 }
 
-thead
+h2
 {
-    text-align:left;
-    font-size:20px;
-    color:white;
-    background-color:#20a9e5;
+    color:gray;
 }
 
 /* UTILS */
@@ -123,4 +128,29 @@ thead
 .background-yellow
 {
     background-color:#ffff00;
+}
+
+.footerimg1
+{
+    color:white;
+    font-weight:bold;
+    font-size:23px;
+    padding-top:10px;
+    padding-left:10px;
+    background:url('../img/monitor.jpg');
+    width:290px;
+    height:208px;
+}
+
+.footerimg2
+{
+    color:white;
+    font-weight:bold;
+    font-size:23px;
+    padding-top:10px;
+    padding-left:10px;
+    background:url('../img/graph.jpg');
+    width:290px;
+    height:208px;
+    margin-top:20px;
 }
