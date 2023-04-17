@@ -3,6 +3,12 @@ body
     margin:0;
 }
 
+h1
+{
+    font-size:50px;
+    margin-bottom:0px;
+}
+
 /* UTILS */
 
 .container
@@ -30,4 +36,23 @@ body
 {
     margin:0;
     padding-top:35px;
+}
+
+.signature
+{
+    color:gray;
+    font-size:20px;
+    font-style:normal;
+}
+
+.color-blue
+{
+    color:rgb(62, 222, 243);
+}
+
+.date
+{
+    font-size:13px;
+    color:gray;
+    margin-top:4px;
 }
