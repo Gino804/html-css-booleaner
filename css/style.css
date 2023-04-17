@@ -21,8 +21,33 @@ p
 
 ul
 {
-    font-size:18px;
+    font-size:19px;
     padding-left:20px;
+}
+
+table
+{
+    width:100%;
+    border-collapse:collapse;
+    font-size:18px;
+}
+
+th,td
+{
+    width:25%;
+}
+
+td
+{
+    height:fit-content;
+}
+
+thead
+{
+    text-align:left;
+    font-size:20px;
+    color:white;
+    background-color:#20a9e5;
 }
 
 /* UTILS */
@@ -83,4 +108,19 @@ ul
 {
     width:555px;
     height:434px;
+}
+
+.column3
+{
+    width:50%;
+}
+
+.background-blue
+{
+    background-color:#b1e5f2;
+}
+
+.background-yellow
+{
+    background-color:#ffff00;
 }
