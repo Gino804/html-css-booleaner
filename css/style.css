@@ -22,7 +22,8 @@ p
 ul
 {
     font-size:19px;
-    padding-left:20px;
+    list-style-position:inside;
+    padding:0;
 }
 
 table
@@ -123,11 +124,6 @@ h2
 .background-blue
 {
     background-color:#b1e5f2;
-}
-
-.background-yellow
-{
-    background-color:#ffff00;
 }
 
 .footerimg
