@@ -135,19 +135,7 @@ h2
     background-color:#ffff00;
 }
 
-.footerimg1
-{
-    color:white;
-    font-weight:bold;
-    font-size:23px;
-    padding-top:10px;
-    padding-left:10px;
-    background:url('../img/monitor.jpg');
-    width:290px;
-    height:208px;
-}
-
-.footerimg2
+.footerimg
 {
     color:white;
     font-weight:bold;
@@ -155,7 +143,19 @@ h2
     padding-top:10px;
     padding-left:10px;
     background:url('../img/graph.jpg');
+    background-position:center;
+    background-size:contain;
     width:290px;
     height:208px;
-    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#monitor
+{
+    background:url('../img/monitor.jpg');
+}
+
+#graph
+{
+    background:url('../img/graph.jpg');
 }
